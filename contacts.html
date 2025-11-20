@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>ГОЯС</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="head">
+    <a href="#navMenu" class="head__burger">
+        <img src="assets/icons/burger.svg" alt="Меню">
+    </a>
+    <div class="head__links" id="navMenu">
+        <div><a href="index.html">ГЛАВНАЯ</a></div>
+        <div><a href="catalogue.html">КАТАЛОГ</a></div>
+        <div><a href="contacts.html">КОНТАКТЫ</a></div>
+        <div><a href="about-us.html">О НАС</a></div>
+    </div>
+    
+    <img src="assets/icons/logo.svg" class="head__logo">
+    
+    <div class="head__info">
+        <div class="head__nan">УКРАШЕНИЯ НА ЗАКАЗ</div>
+        <div class="head__icons">
+            <img src="assets/icons/cart.svg">
+            <img src="assets/icons/heart.svg">
+            <a href="#userModal" class="user-icon">
+                <img src="assets/icons/user.svg">
+            </a>
+        </div>
+    </div>
+</section>
+<div class="user-modal" id="userModal">
+    <div class="user-modal__content">
+        <a href="#" class="user-modal__close">×</a>
+        <h3 class="user-modal__title">Вход в аккаунт</h3>
+        <div class="user-modal__buttons">
+            <a href="#" class="user-modal__btn">ВОЙТИ</a>
+            <a href="#" class="user-modal__btn">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+        </div>
+    </div>
+</div>
+    </header>
+    <main class="main">
+        <section class="hero">
+  <div class="hero__image">
+    <img src="../assets/images/hero-contacts.jpg">
+  </div>
+  <div class="hero__content">
+    <h1 class="hero__title">контакты</h1>
+  </div>
+</section>
+        <section class="headline">
+    <div class="headline__section">связаться с нами</div>
+    <div class="headline__quote">Лучшие проекты рождаются<br>от случайной мысли</div>
+</section>
+        <section class="sending-messages">
+    <form action="sending-messages__connection" method="post">
+        <div class="sending-messages__title">Пожалуйста, заполните форму, чтобы отправить нам сообщение. Наши менеджеры ответят на ваш запрос как можно скорее.</div>
+         <input type="text" name="username" placeholder="Ваше имя и фамилия" required>
+         <input type="tel" name="phone-number" placeholder="Ваш номер телефона" required pattern="^((\+7|7|8)+([0-9]){10})$">
+         <input type="email" name="email" placeholder="Ваша электронная почта" required>
+         <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+         <button type="#">Отправить <img src="assets/icons/arrow.svg" class="sending-messages__icon"></button>
+    </form>
+    <img src="assets/images/form.jpg">
+</section>
+        <section class="headline">
+    <div class="headline__section">контакты</div>
+    <div class="headline__quote">дверь в наш дом открывается<br>после вашего запроса</div>
+</section>
+        <section class="info">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A438a146839157d77f2ec8d60903d750760674078b20fdd8b802842e314d10a35&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+    <div class="info__columns">
+        <div class="info__column">
+            <div class="info__column-object">
+                <div class="info__column-title">телефон</div>
+                <div class="info__column-text">8 999 999 99 99</div>
+            </div>
+            <div class="info__column-object">
+                <div class="info__column-title">режим работы</div>
+                <div class="info__column-text">только по предварительной записи</div>
+            </div>
+            <div class="info__column-object">
+                <div class="info__column-title">социальные сети</div>
+                <div class="info__column-text"><img src="assets/icons/logo-vk.svg"><img src="assets/icons/logo-inst.svg"></div>
+            </div>
+            <div class="info__column-object">
+                <div class="info__column-title">адрес</div>
+                <div class="info__column-text">г. Нижний Новгород, ул. Белинского 53</div>
+            </div>
+        </div>
+        <div class="info__column">
+            <div class="info__column-object">
+                <div class="info__column-title">почта</div>
+                <div class="info__column-text">goyas@gmail.com</div>
+            </div>
+            <div class="info__column-object">
+                <div class="info__column-title">время работы</div>
+                <div class="info__column-text">9:00 - 19:00 ПО мск</div>
+            </div>
+            <div class="info__column-object">
+                <div class="info__column-title">мессенджеры</div>
+                <div class="info__column-text"><img src="assets/icons/logo-tg.svg"><img src="assets/icons/logo-watsupp.svg"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <section class="footer">
+  <div class="footer__container">
+    <div class="footer__column">
+      <h3 class="footer__title">РЕЖИМ РАБОТЫ</h3>
+      <div class="footer__section">
+        <p class="footer__subtitle">СALL-ЦЕНТР:</p>
+        <p class="footer__text">ЕЖЕДНЕВНО С 9:00 ДО 19:00</p>
+      </div>
+      <div class="footer__section">
+        <p class="footer__subtitle">АДРЕС:</p>
+        <p class="footer__text">123456, Г. НИЖНИЙ НОВГОРОД,<br>УЛ. БЕЛИНСКОГО 53</p>
+      </div>
+    </div>
+
+    <div class="footer__column">
+      <h3 class="footer__title">КАТЕГОРИИ</h3>
+      <nav class="footer__nav">
+        <a href="catalogue.html" class="footer__link">ДРАГОЦЕННЫЕ КАМНИ</a>
+        <a href="catalogue.html" class="footer__link">ПОДВЕСКИ</a>
+        <a href="catalogue.html" class="footer__link">БРАСЛЕТЫ</a>
+        <a href="catalogue.html" class="footer__link">БРОШИ</a>
+        <a href="catalogue.html" class="footer__link">БУСИНЫ</a>
+        <a href="catalogue.html" class="footer__link">КОЛЬЕ</a>
+        <a href="catalogue.html" class="footer__link">КОЛЬЦА</a>
+        <a href="catalogue.html" class="footer__link">ВИП ПОДАРКИ</a>
+        <a href="catalogue.html" class="footer__link">МОНЕТЫ</a>
+        <a href="catalogue.html" class="footer__link">СЕРЬГИ</a>
+      </nav>
+    </div>
+
+    <div class="footer__column">
+      <h3 class="footer__title">ПОКУПАТЕЛЯМ</h3>
+      <nav class="footer__nav">
+        <a href="#" class="footer__link">ВАКАНСИИ</a>
+        <a href="#" class="footer__link">КОЛЛЕКЦИИ</a>
+        <a href="#" class="footer__link">ДОСТАВКА И ОПЛАТА</a>
+        <a href="#" class="footer__link">ОФЕРТА</a>
+        <a href="#" class="footer__link">ПОЛИТИКА ОБРАБОТКИ<br>ПЕРСОНАЛЬНЫХ ДАННЫХ</a>
+        <a href="#" class="footer__link">КАРТА САЙТА</a>
+      </nav>
+    </div>
+
+    <div class="footer__column">
+      <h3 class="footer__title">КОНТАКТЫ</h3>
+      <div class="footer__contacts">
+        <div class="footer__contact-item">
+          <p class="footer__subtitle">ТЕЛЕФОН</p>
+          <a href="#" class="footer__link">8 999 999 99 99</a>
+        </div>
+        <div class="footer__contact-item">
+          <p class="footer__subtitle">ПОЧТА</p>
+          <a href="#" class="footer__link">GOVAS@GMAL.COM</a>
+        </div>
+        <div class="footer__contact-item">
+          <p class="footer__subtitle">СОЦСЕТИ И МЕССЕНДЖЕРЫ</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link"><img src="assets/icons/logo-vk.svg"></a>
+            <a href="#" class="footer__social-link"><img src="assets/icons/logo-inst.svg"></a>
+            <a href="#" class="footer__social-link"><img src="assets/icons/logo-tg.svg"></a>
+            <a href="#" class="footer__social-link"><img src="assets/icons/logo-watsupp.svg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </footer>
+</body>
+
+</html>
