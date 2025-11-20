@@ -2428,3 +2428,8 @@ html:root {
         filter: brightness(0) invert(0) !important
     }
 }
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('assets/fonts/Geologica-Regular.ttf')
+};
