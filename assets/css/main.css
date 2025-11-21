@@ -155,7 +155,7 @@ input[type=file] {
 }
 
 .head__links div {
-    font-weight: lighter;
+    font-weight: ;
     cursor: pointer;
     transition: .3s;
     text-transform: uppercase;
@@ -229,7 +229,6 @@ input[type=file] {
 }
 
 .head__nan {
-    font-weight: lighter;
     cursor: pointer;
     transition: .3s;
     text-transform: uppercase;
@@ -503,7 +502,6 @@ input[type=file] {
     text-align: center;
     margin-bottom: 30px;
     font-size: var(--font-size-lead);
-    font-weight: lighter;
     text-transform: uppercase;
     letter-spacing: 1px
 }
@@ -522,7 +520,6 @@ input[type=file] {
     text-transform: uppercase;
     transition: .3s;
     letter-spacing: 1px;
-    font-weight: lighter;
     text-align: center;
     display: block;
     text-decoration: none
@@ -795,7 +792,6 @@ input[type=file] {
     padding: 0;
     font-size: var(--font-size-lead);
     font-family: var(--font-family-main);
-    font-weight: lighter;
     text-transform: uppercase;
     cursor: pointer;
     transition: color .3s;
@@ -937,7 +933,6 @@ input[type=file] {
     align-items: center;
     padding-inline: 150px;
     gap: 18px;
-    font-weight: lighter;
     text-transform: uppercase
 }
 
@@ -1230,10 +1225,6 @@ input[type=file] {
     margin-bottom: 5px
 }
 
-.footer__text {
-    font-weight: lighter
-}
-
 .footer__nav {
     display: flex;
     flex-direction: column;
@@ -1241,7 +1232,6 @@ input[type=file] {
 }
 
 .footer__link {
-    font-weight: lighter;
     transition: color .3s
 }
 
@@ -1349,7 +1339,6 @@ input[type=file] {
     padding-inline: 150px;
     align-items: center;
     gap: 18px;
-    font-weight: lighter;
     text-transform: uppercase
 }
 
@@ -1402,7 +1391,6 @@ input[type=file] {
     padding-inline: 150px;
     align-items: center;
     gap: 18px;
-    font-weight: lighter;
     text-transform: uppercase
 }
 
@@ -1494,7 +1482,6 @@ input[type=file] {
 .principles__text {
     text-transform: uppercase;
     margin: 0;
-    font-weight: lighter;
     text-align: justify
 }
 
@@ -1594,10 +1581,6 @@ input[type=file] {
 
 .staff__name {
     font-size: var(--font-size-h4)
-}
-
-.staff__post {
-    font-weight: lighter
 }
 
 .staff__charapter {
@@ -1725,7 +1708,6 @@ input[type=file] {
 
 .product-card__material {
     font-size: var(--font-size-body-small);
-    font-weight: lighter;
     opacity: .9
 }
 
@@ -1740,14 +1722,12 @@ input[type=file] {
 
 .product-card__price {
     font-size: var(--font-size-large);
-    font-weight: lighter;
     flex-shrink: 0;
     white-space: nowrap
 }
 
 .product-card__button {
     font-size: var(--font-size-lead);
-    font-weight: lighter;
     text-transform: uppercase;
     cursor: pointer;
     display: flex;
@@ -1872,7 +1852,6 @@ input[type=file] {
     justify-content: space-between;
     text-transform: uppercase;
     font-size: var(--font-size-body-large);
-    font-weight: lighter;
     height: 70px;
     border-bottom: 1px solid var(--white);
     padding-block: 40px 10px;
@@ -1989,7 +1968,6 @@ input[type=file] {
     justify-content: center;
     margin-top: 40px;
     font-size: var(--font-size-h4);
-    font-weight: lighter;
     align-items: center
 }
 
@@ -2022,8 +2000,7 @@ input[type=file] {
     align-items: center;
     gap: 40px;
     padding-inline: 150px;
-    text-transform: uppercase;
-    font-weight: lighter
+    text-transform: uppercase
 }
 
 .sending-messages__icon {
@@ -2081,7 +2058,6 @@ input[type=file] {
     border: none;
     padding-block: 15px;
     text-transform: uppercase;
-    font-weight: lighter;
     transition: color .3s;
     display: flex;
     align-items: center;
@@ -2238,7 +2214,6 @@ input[type=file] {
     width: 100%;
     box-sizing: border-box;
     text-transform: uppercase;
-    font-weight: lighter;
     align-items: center
 }
 
