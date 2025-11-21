@@ -281,6 +281,10 @@ input[type=file] {
     transition: .3s
 }
 
+.head__burger div {
+    color: var(--text-color);
+}
+
 .head__burger:hover img {
     transform: scale(1.1)
 }
