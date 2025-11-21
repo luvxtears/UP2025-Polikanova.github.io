@@ -160,6 +160,7 @@ input[type=file] {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 5px
+    color: var(--text-color);
 }
 
 .head__links div:active {
