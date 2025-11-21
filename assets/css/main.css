@@ -155,7 +155,6 @@ input[type=file] {
 }
 
 .head__links div {
-    font-weight: ;
     cursor: pointer;
     transition: .3s;
     text-transform: uppercase;
